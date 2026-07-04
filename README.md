@@ -21,10 +21,3 @@ A premium, modern, and highly interactive Weather Application built with Vanilla
   * [OpenWeatherMap Geocoding API](https://openweathermap.org/api/geocoding-api)
 * **Storage:** Browser Local Storage
 
-## 🚀 How to Run Locally
-
-If you want to test or modify this project on your local machine, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/rajatp79/Weather-App.git]<img width="2853" height="1458" alt="Screenshot 2026-07-04 165304" src="https://github.com/user-attachments/assets/69b1d4e0-fef0-4ce4-b735-6470092d2914" />
