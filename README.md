@@ -1,3 +1,4 @@
+<img width="2853" height="1458" alt="Screenshot 2026-07-04 165304" src="https://github.com/user-attachments/assets/dd65f192-995a-4d6e-8124-3a36a928cf52" />
 # 🌤️Weather App
 
 A premium, modern, and highly interactive Weather Application built with Vanilla Web Technologies. It provides real-time weather data, dynamic cinematic backgrounds based on weather conditions, and a sleek frosted-glass (Glassmorphism) UI.
