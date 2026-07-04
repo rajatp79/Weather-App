@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <h2>Weather App</h2>
+    
+   <div class="search-box" style="position: relative;">
+      <input type="text" id="cityInput" placeholder="Enter city name..." autocomplete="off" spellcheck="false">
+      
+      <ul id="suggestionsList" class="suggestions-dropdown hidden"></ul>
+      
+      <button id="locationBtn" title="Use My Location">📍</button>
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <p style="font-size: 13px; margin-bottom: 5px; opacity: 0.8;">Recent Searches:</p>
+    <div class="recent-searches" id="recentSearches"></div>
+
+    <div id="loadingSpinner" class="spinner hidden"></div>
+
+    <div id="errorMessage" class="error-msg hidden">
+      ❌ City not found! Please check spelling.
+    </div>
+    
+    <div class="weather-info hidden" id="weatherInfo">
+      <h3 id="cityName">Delhi, IN</h3>
+      <p id="date">Saturday, 4 July</p>
+      
+      <img id="weatherIcon" src="" alt="Weather Icon" width="100px">
+      
+      <h1 id="temperature">32°C</h1>
+      <p id="description">Clear Sky</p>
+      
+      <div class="details">
+        <div class="col">
+          <p>💧 Humidity</p>
+          <h4 id="humidity">40%</h4>
+        </div>
+        <div class="col">
+          <p>💨 Wind</p>
+          <h4 id="windSpeed">5 km/h</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
